@@ -34,13 +34,13 @@ function ModalApp({
                 </Figure>
               </Form.Group>
               <Form.Group className="mb-3">
-                <Form.Text className='fs-3'> Addres: {address}</Form.Text>
+                <Form.Text className='fs-3'> Direccion: {address}</Form.Text>
               </Form.Group>
               <Form.Group className="mb-3">
-                <Form.Text className='fs-3'>City: {city}</Form.Text>
+                <Form.Text className='fs-3'>Ciudad: {city}</Form.Text>
               </Form.Group>
               <Form.Group className="mb-3">
-                <Form.Text className='fs-3'>Capacity: {capacity} people</Form.Text>
+                <Form.Text className='fs-3'>Capacidad: {capacity} personas</Form.Text>
               </Form.Group>
             </Form>
           }

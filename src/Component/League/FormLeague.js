@@ -62,7 +62,6 @@ function FormLeague({setLeagues,setSpinner}){
                     )
                     setSelectedLeague(data)
                     setLeague(res[0].league.name)
-                    setSeason(res[0].seasons[0].year)
                     setSelectedSeason(res[0].seasons)
                 }else{
                     setShow(true)
@@ -127,13 +126,6 @@ function FormLeague({setLeagues,setSpinner}){
                     {
                         selectedLeague.map(({league}) =>
                             <option key={league.id} value={league.name} >{league.name}</option>
-                        )
-                    }
-                </Form.Select>
-                <Form.Select onChange={handleSeason} className="m-2" disabled={spinner}>
-                    {
-                        selectedSeason.map((x) =>
-                            <option key={x.year}  value={x.year} >{x.year}</option>
                         )
                     }
                 </Form.Select>

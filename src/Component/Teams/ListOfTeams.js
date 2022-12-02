@@ -39,7 +39,7 @@ function ListOfTeams({id,season}){
             {/* Llamo a los componente teams para mostrarlos */}
             <h2 className="text-center p-4">Equipos que participaron en la competencia en {season}</h2>
             {spinner &&
-                <div>
+                <div className="text-center">
                     <Spinner animation="border" variant="dark"/>
                 </div>
             }

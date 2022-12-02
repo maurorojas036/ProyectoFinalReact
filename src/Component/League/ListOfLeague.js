@@ -12,7 +12,7 @@ function ListOfLeague({leagues= [], leagueBoolean = true, spinner=false ,country
         <>
             <Container>
                 {leagueBoolean &&
-                    <div className="d-flex flex-row flex-wrap justify-content-start align-items-center mb-1 mt-1">
+                    <div className="d-flex flex-row flex-wrap justify-content-center align-items-center mb-1 mt-1">
                     { spinner && 
                         <Spinner animation="border" variant="dark"/>
                     }

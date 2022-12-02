@@ -2,7 +2,7 @@ import React , {useState, useEffect}from "react";
 import GetCountry from "../../Services/GetCountry";
 import CustomAlert from "../Alert/Alert";
 
-function FormCountry({params, f, setCountries, setSpinner}){
+function FormCountry({countries , params, f, setCountries, setSpinner}){
     const [AuxParams, setAuxParams] = useState()
 
     // Genero dos estados para mostrar mensaje de error en caso que no se pueda cargar datos
@@ -31,7 +31,7 @@ function FormCountry({params, f, setCountries, setSpinner}){
             }
             setSpinner(false)
         })
-    },[])
+    },[params])
 
     return (
         <>

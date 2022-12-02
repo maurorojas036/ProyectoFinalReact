@@ -17,7 +17,7 @@ export default function Country(){
             <section>
                 { spinner && 
                     <div className="text-center">
-                        <Spinner animation="border" variant="light" />
+                        <Spinner animation="border" variant="dark" />
                     </div>
                 }    
                 { !spinner &&

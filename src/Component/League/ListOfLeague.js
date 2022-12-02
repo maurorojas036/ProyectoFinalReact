@@ -14,7 +14,7 @@ function ListOfLeague({leagues= [], leagueBoolean = true, spinner=false ,country
                 {leagueBoolean &&
                     <div className="d-flex flex-row flex-wrap justify-content-start align-items-center mb-1 mt-1">
                     { spinner && 
-                        <Spinner animation="border" variant="light"/>
+                        <Spinner animation="border" variant="dark"/>
                     }
                     { !spinner &&
                         <img alt={countryResponse.name} src={countryResponse.flag} className="w-25 h-25 rounded-circle p-5"/>
@@ -27,7 +27,7 @@ function ListOfLeague({leagues= [], leagueBoolean = true, spinner=false ,country
                 
                     { spinner &&
                         <div className="text-center">
-                            <Spinner animation="border" variant="light" />
+                            <Spinner animation="border" variant="dark" />
                         </div>
                     }
                     {!spinner &&

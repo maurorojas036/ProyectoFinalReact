@@ -3,7 +3,6 @@ import {Alert, Container} from 'react-bootstrap';
 
 function CustomAlert({errorvalue, msg}) {
 const [show, setShow] = useState(true);
-console.log(msg)
   if (show) {
     return (
       <>

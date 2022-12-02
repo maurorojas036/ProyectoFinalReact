@@ -58,7 +58,7 @@ const League = ({id, name, logo, seasons}) => {
                 <Card.Body>
                 </Card.Body>
                 </div>
-                <Button variant="primary" className="m-1 shadow align-self-center" onClick={handleShow}>Detalle</Button>
+                <Button variant="primary" className="m-4 shadow align-self-center" onClick={handleShow}>Detalle</Button>
             </Card>
         </> 
     )

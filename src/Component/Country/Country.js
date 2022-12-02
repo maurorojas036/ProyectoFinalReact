@@ -12,7 +12,7 @@ const Country = ({name,code,flag}) =>{
                 <Card.Body>
                 </Card.Body>
                 </div>
-                <Button variant="primary" className="m-1 shadow align-self-center" as={Link} to={`/Country/Detail/${name}`}>Detail</Button>
+                <Button variant="primary" className="m-4 shadow align-self-center" as={Link} to={`/Country/Detail/${name}`}>Detail</Button>
             </Card>
         </>
     )
